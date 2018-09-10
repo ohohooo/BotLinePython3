@@ -411,20 +411,20 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'เชคค่า':
                     try:
-                        ret_ = "╔══[ Status ]"
-                        if settings["autoAdd"] == True: ret_ += "\n╠ Auto Add ✅"
-                        else: ret_ += "\n╠ Auto Add ❌"
-                        if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join ✅"
-                        else: ret_ += "\n╠ Auto Join ❌"
-                        if settings["autoLeave"] == True: ret_ += "\n╠ Auto Leave ✅"
-                        else: ret_ += "\n╠ Auto Leave ❌"
-                        if settings["autoRead"] == True: ret_ += "\n╠ Auto Read ✅"
-                        else: ret_ += "\n╠ Auto Read ❌"
-                        if settings["checkSticker"] == True: ret_ += "\n╠ Check Sticker ✅"
-                        else: ret_ += "\n╠ Check Sticker ❌"
-                        if settings["detectMention"] == True: ret_ += "\n╠ Detect Mention ✅"
-                        else: ret_ += "\n╠ Detect Mention ❌"
-                        ret_ += "\n╚══[ Status ]"
+                        ret_ = "╔══[ ตั้งค่า ]"
+                        if settings["autoAdd"] == True: ret_ += "\n╠ รับแอดออโต้ ✅"
+                        else: ret_ += "\n╠ รับแอดออโต้ ❌"
+                        if settings["autoJoin"] == True: ret_ += "\n╠ เข้าห้องออโต้ ✅"
+                        else: ret_ += "\n╠ เข้าห้องออโต้ ❌"
+                        if settings["autoLeave"] == True: ret_ += "\n╠ ออกแชทรวม ✅"
+                        else: ret_ += "\n╠ออกแชทรวม ❌"
+                        if settings["autoRead"] == True: ret_ += "\n╠ อ่านออโต้ ✅"
+                        else: ret_ += "\n╠ อ่านออโต้ ❌"
+                        if settings["checkSticker"] == True: ret_ += "\n╠ เชคติ้ก ✅"
+                        else: ret_ += "\n╠ เชคติ้ก ❌"
+                        if settings["detectMention"] == True: ret_ += "\n╠ แทค ✅"
+                        else: ret_ += "\n╠ แทค ❌"
+                        ret_ += "\n╚══[ ♻TEAM🔘BOT🔘HARDLINE♻ ]"
                         nadya.sendMessage(to, str(ret_))
                     except Exception as e:
                         nadya.sendMessage(msg.to, str(e))

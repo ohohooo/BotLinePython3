@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u14f64e139a3817afaabe27d237afb36b","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u14f64e139a3817afaabe27d237afb36b"]
-admin = ["u14f64e139a3817afaabe27d237afb36b"]
+creator = ["uade478017995c7c4b7c33e07bc8d0d32","u92e4326146a0bf296ca15846aa2a25f6"]
+Owner = ["uade478017995c7c4b7c33e07bc8d0d32"]
+admin = ["uade478017995c7c4b7c33e07bc8d0d32"]
 
 nadyaProfile = nadya.getProfile()
 kiProfile = ki.getProfile()

@@ -12,9 +12,9 @@ from googletrans import Translator
 botStart = time.time()
 
 nadya = LINE()
-#nadya = LINE("EwCn1U9mk7cqBYPHJMR8.ELwsTiBgq+h2cKrivan/ka.jxKXGgXhR/E5sJeQ6cRmxnm89XvnO3M7G/Hfu3+S7xo=")
+#nadya = LINE("TOKEN KAMU")
 #nadya = LINE("Email","Password")
-nadya.log("EwCn1U9mk7cqBYPHJMR8.ELwsTiBgq+h2cKrivan/ka.jxKXGgXhR/E5sJeQ6cRmxnm89XvnO3M7G/Hfu3+S7xo=")
+nadya.log("Auth Token : " + str(nadya.authToken))
 channelToken = nadya.getChannelResult()
 nadya.log("Channel Token : " + str(channelToken))
 

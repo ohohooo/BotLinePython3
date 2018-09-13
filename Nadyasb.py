@@ -88,7 +88,7 @@ def helpmessage():
                   "╠🇯🇵〘 สเตตัส 〙🇯🇵════════" + "\n" + \
                   "╠🔹➥ รีบอท" + "\n" + \
                   "╠🔹➥ ออน" + "\n" + \
-                  "╠🔹➥ Sp" + "\n" + \
+                  "╠🔹➥ สปีด" + "\n" + \
                   "╠🔹➥ เชคค่า" + "\n" + \
                   "╠🔹➥ ข้อมูล" + "\n" + \
                   "║" + "\n" + \
@@ -372,7 +372,7 @@ def lineBot(op):
                     helpTranslate = helptranslate()
                     nadya.sendMessage(to, str(helpTranslate))
 #==============================================================================#
-                elif text.lower() == 'Sp':
+                elif text.lower() == 'สปีด':
                     start = time.time()
                     nadya.sendMessage(to, "Prosses...")
                     elapsed_time = time.time() - start
